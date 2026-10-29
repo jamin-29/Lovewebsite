@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#100a10" />
+  <title>To My Forever Love ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="To My Forever Love home"><span>♥</span> OUR LITTLE UNIVERSE</a>
+    <button class="music-button" id="musicToggle" type="button" aria-pressed="false">
+      <span class="music-dot"></span><span id="musicLabel">Enable love song</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="eyebrow"><span class="eyebrow-line"></span> A LITTLE PIECE OF MY HEART <span class="eyebrow-line"></span></div>
+      <div class="hero-heart" aria-hidden="true">♥</div>
+      <p class="small-caps">TO THE GIRL WHO MAKES MY WORLD BEAUTIFUL</p>
+      <h1>To My <em>Forever</em> Love</h1>
+      <p class="hero-copy">In a world full of people, my heart will always find its way back to you.</p>
+      <a class="primary-button" href="#letter">Open your little surprise <span>↓</span></a>
+      <div class="scroll-note">MADE WITH ALL MY LOVE</div>
+    </section>
+
+    <section class="counter-section section" aria-labelledby="counterTitle">
+      <div class="section-kicker">EVERY SECOND COUNTS</div>
+      <h2 id="counterTitle">Time with you is my favorite time.</h2>
+      <p class="muted">And this is only the beginning of our story.</p>
+      <div class="counter-grid" aria-live="polite">
+        <div class="counter-card"><strong id="days">000</strong><span>Days</span></div>
+        <div class="counter-card"><strong id="hours">00</strong><span>Hours</span></div>
+        <div class="counter-card"><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div class="counter-card"><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+      <p class="counter-caption">of choosing you, loving you, and being grateful for you. ♡</p>
+      <p class="setup-hint">Set your relationship date in <code>script.js</code> to start your counter.</p>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="section-kicker">WORDS FROM MY HEART</div>
+      <h2>A letter, <em>just for you.</em></h2>
+      <div class="letter-card">
+        <div class="letter-top"><span>♡</span><span>TO MY FAVORITE PERSON</span><span>♡</span></div>
+        <p class="letter-greeting">My love,</p>
+        <p>Happy monthsary, beautiful. If I could give you one thing in life, I would give you the ability to see yourself through my eyes. Maybe then you would understand how special you are to me, how your smile can make an ordinary day feel magical, and how grateful I am that our paths crossed.</p>
+        <p>Thank you for being part of my life, for the little moments that turn into my favorite memories, and for giving my heart so many reasons to smile. I know we will not always have perfect days, but I want you to know that I will keep choosing to understand you, support you, and grow with you.</p>
+        <p>No website could ever hold all the love I have for you. But I made this little corner of the internet so you can come back whenever you need a reminder: you are loved, you are appreciated, and you mean so much to me.</p>
+        <p class="letter-signoff">Always yours, <br><em>Your love ♡</em></p>
+        <button class="text-button" id="editLetter" type="button">Personalize this letter ✎</button>
+      </div>
+    </section>
+
+    <section class="section memories-section" id="memories">
+      <div class="section-kicker">LITTLE MOMENTS, BIG LOVE</div>
+      <h2>Our little <em>memory lane.</em></h2>
+      <p class="muted">Replace these placeholders with photos that tell our story.</p>
+      <div class="gallery">
+        <button class="photo-card photo-one" data-photo="images/photo1.jpg" type="button" aria-label="Open our first memory">
+          <span class="photo-placeholder"><span>♡</span><b>Our first memory</b><small>Add photo1.jpg</small></span>
+          <span class="photo-caption">The beginning of us</span>
+        </button>
+        <button class="photo-card photo-two" data-photo="images/photo2.jpg" type="button" aria-label="Open a favorite memory">
+          <span class="photo-placeholder"><span>✦</span><b>My favorite smile</b><small>Add photo2.jpg</small></span>
+          <span class="photo-caption">A moment I keep close</span>
+        </button>
+        <button class="photo-card photo-three" data-photo="images/photo3.jpg" type="button" aria-label="Open a silly memory">
+          <span class="photo-placeholder"><span>☾</span><b>Our silly moments</b><small>Add photo3.jpg</small></span>
+          <span class="photo-caption">My favorite kind of chaos</span>
+        </button>
+      </div>
+      <p class="gallery-note">Tip: place your photos in the <code>images</code> folder and name them photo1.jpg, photo2.jpg, and photo3.jpg.</p>
+    </section>
+
+    <section class="section surprises-section" id="surprises">
+      <div class="section-kicker">A FEW THINGS I WANT YOU TO KNOW</div>
+      <h2>Little secrets <em>for you.</em></h2>
+      <p class="muted">Tap each heart to unlock a tiny reminder of my love.</p>
+      <div class="surprise-grid">
+        <button class="surprise-card" data-message="If I could choose a thousand times, I would still choose you. In every version of this life, I hope I get to find you." type="button">
+          <span class="surprise-icon">♥</span><span class="surprise-title">A little promise</span><span class="surprise-hint">Tap to open</span>
+        </button>
+        <button class="surprise-card" data-message="Your smile is one of my favorite places. I hope I get to be a reason behind it, especially on the days that feel heavy." type="button">
+          <span class="surprise-icon">✧</span><span class="surprise-title">A tiny reminder</span><span class="surprise-hint">Tap to open</span>
+        </button>
+        <button class="surprise-card" data-message="When you miss me, remember that somewhere in this big world, there is a heart that is always cheering for you and wishing you the gentlest days." type="button">
+          <span class="surprise-icon">☾</span><span class="surprise-title">For lonely days</span><span class="surprise-hint">Tap to open</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="final-section section">
+      <div class="final-glow">♥</div>
+      <p class="section-kicker">ONE LAST THING, MY LOVE</p>
+      <h2>My favorite place<br>will always be <em>beside you.</em></h2>
+      <button class="primary-button" id="finalSurprise" type="button">One last surprise ♡</button>
+      <p class="final-note">Happy special monthsary, my love. Here's to every chapter still waiting for us.</p>
+    </section>
+  </main>
+
+  <footer><span>MADE WITH LOVE, JUST FOR YOU</span><span>∞ YOU & ME ∞</span></footer>
+
+  <div class="modal" id="messageModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+      <div class="modal-heart">♥</div>
+      <p class="section-kicker" id="modalKicker">A MESSAGE FOR YOU</p>
+      <h2 id="modalTitle">Just for you</h2>
+      <p id="modalMessage"></p>
+      <button class="primary-button" type="button" data-close-modal>Keep this in your heart ♡</button>
+    </div>
+  </div>
+
+  <div class="modal" id="letterModal" role="dialog" aria-modal="true" aria-labelledby="letterModalTitle" hidden>
+    <div class="modal-backdrop" data-close-letter></div>
+    <div class="modal-panel letter-editor">
+      <button class="modal-close" type="button" data-close-letter aria-label="Close">×</button>
+      <p class="section-kicker">MAKE IT YOURS</p>
+      <h2 id="letterModalTitle">Personalize your letter</h2>
+      <label for="letterInput">Write your own message</label>
+      <textarea id="letterInput" rows="8" placeholder="Write something from your heart..."></textarea>
+      <p class="editor-note">Your changes apply on this page only. To keep them permanently, copy your message into index.html.</p>
+      <button class="primary-button" id="saveLetter" type="button">Save letter on this page</button>
+    </div>
+  </div>
+
+  <audio id="loveAudio" loop preload="none"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
